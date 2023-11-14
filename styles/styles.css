@@ -23,7 +23,7 @@
     border-radius:50px;
     margin-top: 20px;
     border: none;
-    margin: auto;
+    margin-top:20px;
 }
 /*-----------------------------------STYLES CTA -SECTION-----------------------------------*/
 body {
@@ -829,6 +829,15 @@ ul#tabs li.check {
     .servicios-section{
         padding:60px 0px;
     }
+
+    .cta-section h1 {
+        margin-top:250px;
+        font-size:35px
+    }
+
+    .digital h1{
+        font-size: 35px;
+    }
   }
 
 
@@ -853,6 +862,10 @@ ul#tabs li.check {
     .img-cta{
         margin-left: 40px;
 
+    }
+
+    .registro{
+        margin-left: 40px;
     }
   }
 
@@ -940,6 +953,11 @@ ul#tabs li.check {
         padding: 120px 0px;
         position:absolute;
     }
+
+    .cta-section h1 {
+        margin-top:250px;
+        font-size:30px
+    }
 }
 
 /*Start media Query*/
@@ -978,10 +996,10 @@ ul#tabs li.check {
 @media (max-width: 767px) {
     /*CTA- SECTION*/
     .cta-section h1 {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
-        font-size:30px;
+        font-size:25px;
         margin-top:120px;
     }
 
@@ -1093,6 +1111,10 @@ ul#tabs li.check {
         background-image: url(../assets/img/digital-background-767.webp);
         padding:120px 0px;
     }
+
+    .registro{
+        margin-left: 22%;
+    }
 }
 
 @media (max-width: 560px) {
@@ -1148,7 +1170,7 @@ ul#tabs li.check {
 
     .cta-section h1{
         font-size: 25px;
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
     .navbar-custom {
