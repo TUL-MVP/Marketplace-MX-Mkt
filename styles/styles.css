@@ -26,6 +26,18 @@
     margin-top:20px;
     text-decoration:none;
 }
+
+.registro2{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(52,226,123);
+    padding: 10px 30px;
+    border-radius:50px;
+    margin-top: 20px;
+    border: none;
+    margin-top:20px;
+    text-decoration:none;
+}
 /*-----------------------------------STYLES CTA -SECTION-----------------------------------*/
 body {
     background:rgb(0,83,61);
@@ -174,7 +186,7 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding:100px 0px;
+    padding:50px 0px;
     height: 900px;
 
 }
@@ -1116,6 +1128,10 @@ ul#tabs li.check {
     .registro{
         margin-left: 22%;
     }
+
+    .digital h1{
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 560px) {
@@ -1226,11 +1242,25 @@ ul#tabs li.check {
     }
 
     .img-cta-2{
-        padding: 170px 0px;
+        margin-top: 50px;
+        padding: 190px 0px;
         position:absolute;
     }
 
     .registro{
         font-size: 15px;
     }
+
+    .servicios-section h1{
+        font-size: 25px;
+    }
+
+    .servicios-card h3{
+        font-size: 20px;
+    }
+
+    .digital h1{
+        font-size: 20px;
+    }
+
 }
