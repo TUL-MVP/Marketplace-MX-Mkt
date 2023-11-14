@@ -1139,6 +1139,10 @@ ul#tabs li.check {
         height: 700px;
     }
 
+    .beneficios-data-left svg{
+        width: 200px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -1217,6 +1221,8 @@ ul#tabs li.check {
 
     .img-cta {
         margin:30px 0px;
+        padding: 320px 0px;
+        position:absolute;
     }
 
     .img-cta-2{
@@ -1227,10 +1233,4 @@ ul#tabs li.check {
     .registro{
         font-size: 15px;
     }
-
-    .img-cta{
-        padding: 320px 0px;
-        position:absolute;
-    }
-
 }
