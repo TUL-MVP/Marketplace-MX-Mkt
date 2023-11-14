@@ -24,6 +24,7 @@
     margin-top: 20px;
     border: none;
     margin-top:20px;
+    text-decoration:none;
 }
 /*-----------------------------------STYLES CTA -SECTION-----------------------------------*/
 body {
@@ -1169,8 +1170,8 @@ ul#tabs li.check {
     }
 
     .cta-section h1{
-        font-size: 25px;
-        margin-top: 40px;
+        font-size: 20px;
+        margin-top: 100px;
     }
 
     .navbar-custom {
@@ -1181,18 +1182,31 @@ ul#tabs li.check {
         padding: 250px 0px;
         position:absolute;
     }
+
+
+    .registro{
+        font-size: 15px;
+    }
+
+    .img-cta{
+        padding:10px 0px;
+        position:absolute;
+    }
 }
 
 
 @media (max-width: 424px) {
     .cta-section h1 {
         padding: 10px;
+        margin-top:100px;
+        font-size: 20px;
         }
 
     .cta-section h4 {
             padding: 10px;
             font-weight: 300;
         }
+
     .cta-section{
         margin-top: -10px;
         background-image: url(../assets/img/background-cta-section-767.webp);
@@ -1207,6 +1221,15 @@ ul#tabs li.check {
 
     .img-cta-2{
         padding: 170px 0px;
+        position:absolute;
+    }
+
+    .registro{
+        font-size: 15px;
+    }
+
+    .img-cta{
+        padding: 320px 0px;
         position:absolute;
     }
 
