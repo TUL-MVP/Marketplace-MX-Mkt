@@ -15,6 +15,16 @@
     opacity: 1;
 }
 
+.registro{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(52,226,123);
+    padding: 10px 30px;
+    border-radius:50px;
+    margin-top: 20px;
+    border: none;
+    margin: auto;
+}
 /*-----------------------------------STYLES CTA -SECTION-----------------------------------*/
 body {
     background:rgb(0,83,61);
