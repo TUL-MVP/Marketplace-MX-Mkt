@@ -5,6 +5,26 @@
     padding: 0px;
 }
 
+.modal .btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(52,226,123);
+    padding: 10px 30px;
+    border-radius:50px;
+    border: none;
+    text-decoration:none;
+}
+
+.modal .btn-secondary{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(62, 62, 62);
+    padding: 10px 30px;
+    border-radius:50px;
+    border: none;
+    text-decoration:none;
+}
+
 .line{
     border-top: 10px solid rgb(255, 212, 0);
     z-index:99;
